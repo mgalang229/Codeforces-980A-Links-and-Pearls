@@ -14,8 +14,7 @@ int main() {
 	}
 	int links = n - beads;
 	// we need to check if there beads
-	// if there are, then we need to check again if the no. of links is divible by
-	// the no. of beads
+	// if there are, then we need to check again if the no. of links is divible by the no. of beads
 	// if there aren't any beads, then the answer is YES
 	if (beads > 0) {
 		cout << (links % beads == 0 ? "YES" : "NO");
